@@ -1,8 +1,8 @@
 $(document).ready(function(){
   $("#form").submit(function(event){
-    event.displayDefault();
+    event.preventDefault();
 
-    var item1 = $("input#item1").val():
+    var item1 = $("input#item1").val();
     var item2 = $("input#item2").val();
     var item3 = $("input#item3").val();
     var item4 = $("input#item4").val();
